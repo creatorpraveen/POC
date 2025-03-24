@@ -12,8 +12,8 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.button}
-        onPress={() => handlePress('Remover')}>
-        <Text style={styles.buttonText}>Background Remover</Text>
+        onPress={() => handlePress('Grid')}>
+        <Text style={styles.buttonText}>Post Grid</Text>
       </TouchableOpacity>
     </View>
   );
