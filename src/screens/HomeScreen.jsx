@@ -12,7 +12,7 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.button}
-        onPress={() => handlePress('Grid')}>
+        onPress={() => handlePress('Draggable')}>
         <Text style={styles.buttonText}>Post Grid</Text>
       </TouchableOpacity>
     </View>
